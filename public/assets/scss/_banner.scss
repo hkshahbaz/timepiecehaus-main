@@ -1,0 +1,18 @@
+/*--
+    09. Banner Area Css
+---------------------------------*/
+.single-banner {
+    overflow: hidden;
+    & a {
+        display: block;
+        & img {
+            transform: scale(1.0);
+            transition: all .3s ease-in-out;
+        }
+        &:hover {
+            & img {
+                transform: scale(1.02);
+            }
+        }
+    }
+}

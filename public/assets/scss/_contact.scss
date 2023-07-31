@@ -1,0 +1,107 @@
+/*--    
+    17. Contact Us Css
+-----------------------------*/
+.contact-form-info {
+    padding: 20px 50px 20px 0;
+    @media #{$large-mobile,$tablet-device}{
+        padding: 0;
+    }
+}
+.contact-title {
+    & > h3 {
+        font-size: 22px;
+        margin-bottom: 30px;
+        font-weight: 600;
+    }
+}
+.contact-input {
+    display: block;
+    margin: 0 -10px;
+    overflow: hidden;
+}
+.contact-inner {
+    float: left;
+    margin: 0 0 20px;
+    padding: 0 10px;
+    width: 50%;
+    @media #{$large-mobile}{
+        width: 100%;
+    }
+    & input, textarea {
+        border: 1px solid #dddddd;
+        color: #222222;
+        font-size: 14px;
+        height: 45px;
+        padding-left: 15px;
+        width: 100%;
+    }
+    &.contact-message {
+        width: 100%;
+        & textarea {
+            height: 150px;
+            padding: 15px;
+        }
+    }
+}
+.contact-infor {
+    background: #f2f2f2 none repeat scroll 0 0;
+    padding: 20px 30px;
+    @media #{$large-mobile,$tablet-device}{
+        margin-top: 60px;
+    }
+}
+
+.contact-dec > p {
+    margin-bottom: 30px;
+}
+.contact-address {
+    margin-bottom: 10px;
+    & li {
+        border-top: 1px solid #e4e4e4;
+        font-size: 14px;
+        padding: 10px 0;
+        &:first-child {
+            border-top: none;
+        }
+        & i {
+            margin-right: 5px;
+        }
+    }
+}
+.work-hours {
+    margin-bottom: 15px;
+}
+.contact-submit-btn {
+    & .submit-btn {
+        background: #333333 none repeat scroll 0 0;
+        border: 0 none;
+        border-radius: 3px;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 400;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 25px;
+        text-transform: capitalize;
+        -webkit-transition: all 0.4s ease-out 0s;
+        transition: all 0.4s ease-out 0s;
+        &:hover {
+            background: $theme-color;
+        }
+    }
+}
+.form-messege {
+    margin-bottom: 0;
+    margin-top: 3px;
+    font-size: 14px;
+    &.error {
+        color: red;
+        font-style: italic;
+    }
+    &.success {
+        color: #008000;
+        font-style: italic;
+    }  
+}

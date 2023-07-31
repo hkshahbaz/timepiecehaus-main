@@ -1,0 +1,34 @@
+// Font Family
+$body-font:  'Rubik', sans-serif;
+$heading-font: 'Rubik', sans-serif;
+
+// Colors ---------------
+
+$white: #ffffff;
+$black: #000000;
+$grey: #F6F7F9;
+
+// Body Color
+$body-color: #454545;
+
+// footer Color
+$footer-color: #1a1a1a;
+
+// Heading Color
+$heading-color: #3a3a3a;
+
+// Theme Color
+$theme-color: #c89979;
+$theme-color-1: #0E7346;
+$theme-color-2: #f1f1ff;
+
+
+
+// Responsive Variables
+$extraBig-device : 'only screen and (min-width: 1600px)';
+$laptop-device : 'only screen and (min-width: 1200px) and (max-width: 1599px)';
+$desktop-device : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$tablet-device:'only screen and (min-width: 768px) and (max-width: 991px)';
+$large-mobile:'only screen and (max-width: 767px)';
+$small-mobile: 'only screen and (max-width: 479px)';
+

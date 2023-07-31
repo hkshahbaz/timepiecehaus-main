@@ -1,0 +1,128 @@
+.main-menu-area ul > li.active > a {
+    color: #c89979 !important;
+}
+
+.primary-images {
+    height: 292px;
+    min-width: 100%;
+}
+
+.product-rating {
+    color: #c89979;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.info {
+    color: #c89979;
+}
+
+.theme-color {
+    color: #c89979;
+}
+
+/* Product Item */
+.product-item-icon-heart {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 28px;
+    padding: 12px;
+    color: #c89979;
+}
+
+.flag-icon {
+    width: 10%;
+    position: absolute;
+    left: 83%;
+    bottom: 9%;
+    border: 1px solid #cdd4d8;
+}
+
+.country-name {
+    padding: 8px;
+    position: absolute;
+    left: 81%;
+    bottom: 5px;
+}
+
+.indicator {
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    -webkit-animation: pulse-animation 2s infinite linear;
+}
+
+.product-rating {
+    color: #c89979;
+}
+
+.user-img {
+    width: 12%;
+    height: 120px;
+    border: 1px solid #cdd4d8;
+    position: absolute;
+    right: 11%;
+    top: 7%;
+    padding: 4px;
+}
+
+.display-inline-block {
+    display: inline-block !important;
+}
+
+/* popover */
+.popover-header {
+    font-size: 13px;
+}
+
+.popover-body {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+h6 {
+    font-size: 1pc;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.percent {
+    position: absolute;
+    line-height: 41px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #51a700;
+    display: block;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 50%;
+}
+
+.flag-icon-for-seller {
+    width: 5%;
+    border: 1px solid #cdd4d8;
+}
+
+#sidebar-listing > li.active {
+    color: #c89979;
+    font-weight: 500;
+}
+
+.filter-price-cont .input-type input {
+    padding: 0px !important;
+}
+

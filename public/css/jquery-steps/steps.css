@@ -1,0 +1,290 @@
+a#steps-uid-0-t-0 {
+    background: #c89979;
+}
+
+a#steps-uid-0-t-1 {
+    background: #c89979;
+    color: white;
+}
+
+a#steps-uid-0-t-2 {
+    background: #c89979;
+    color: white;
+}
+
+a#steps-uid-0-t-3 {
+    background: #c89979;
+    color: white;
+}
+
+.content.clearfix {
+    overflow: scroll;
+    height: 50rem;
+}
+
+.product-Function ul li {
+    list-style-type: none;
+}
+
+.product-Function ul li span {
+    padding: 10px;
+}
+
+.upload-pictures {
+    background: white;
+    border-style: dashed;
+    min-height: 10rem;
+}
+
+.upload-cam {
+    font-size: 36px;
+    position: absolute;
+    left: 48%;
+    top: 3%;
+}
+
+button.btn.btn-default.mt-5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.btn.btn-default.upload {
+    padding: 3px 40px;
+    font-size: 12px;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.preview-box {
+    background-color: white;
+    min-height: 15rem;
+    border: 1px solid #e6eaec;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    min-width: 1px;
+    min-height: 55px;
+    padding: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.prev-image-box {
+    height: 210px;
+    width: 100%;
+}
+
+.payment-imgs{
+    width: 22%;
+    height: 4%;
+    position: absolute;
+    right: 3%;
+    bottom: 19.5%
+
+}
+li.media {
+    list-style-type: none;
+    position: absolute;
+    left: 40%;
+}
+
+.paypal-cl {
+    font-size: 17px;
+    line-height: 2.375;
+}
+.payment-img{
+    position: absolute;
+    right: 25px;
+    width: 22%;
+    height: 31px;
+    bottom: 14%;
+}
+.listing-fee-cal{
+    border: 1px solid #e6eaec;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    background: white;
+}
+/*.media-right {
+    vertical-align: middle;
+}
+.media, .media-body {
+    overflow: visible;
+}
+.media-left, .media-right, .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+.media-body {
+    width: 10000px;
+}
+.media, .media-body {
+    zoom: 1;
+    overflow: hidden;
+}*/
+/*.text-lg {
+    font-size: 17px;
+    line-height: 1.375;
+}
+.m-t-2, .m-y-2 {
+    margin-top: 10px !important;
+}
+.m-b-1, .tags .label, .m-y-1 {
+    margin-bottom: 5px !important;
+}
+.form-check {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-check {
+    margin-bottom: 10px;
+}
+.media-right {
+    vertical-align: middle;
+}
+
+.d-sm-table-cell {
+    display: table-cell !important;
+}*/
+
+
+.media-left, .media-right, .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.media-right, .media>.pull-right {
+    padding-left: 17px;
+}
+/*.media-right .payment-imgs {
+    height: 25px;
+}*/
+/*.d-sm-table-cell {
+    display: table-cell !important;
+}*/
+.media-right, .media>.pull-right {
+    padding-left: 17px;
+}
+
+/*End steps*/
+
+/* side watch wall*/
+.text-primary {
+    color: #c39052;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.divider, .hr {
+    height: 1px;
+    margin: 10px 0;
+    overflow: hidden;
+    background-color: #cdd4d8;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+}
+
+.p-t-3, .p-y-3 {
+    padding-top: 17px !important;
+}
+
+.watch-draft {
+    /*margin-left: 35%;*/
+}
+
+.notification-box {
+    border: 1px solid #e6eaec;
+    min-height: 150px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 15px;
+}
+
+.notification.info {
+    border: 1px solid #cdd4d8;
+}
+
+.d-flex {
+    display: flex !important;
+    min-width: 1px;
+    min-height: 1px;
+}
+
+.flex-column {
+    -webkit-box-orient: vertical !important;
+    flex-direction: column !important;
+}
+
+.p-a-2 {
+    padding: 10px !important;
+}
+
+.notification {
+    background-color: #fff;
+    margin-bottom: 17px;
+}
+
+.text-lg {
+    font-size: 17px;
+    line-height: 1.375;
+    margin-left: 3px;
+}
+
+.i-bulb:before {
+    content: '\f10d';
+}
+
+.wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+    background: #c89979;
+}
+
+.wizard > .steps .done a, .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
+    background: #c89979a6 !important;
+}
+
+.wizard > .content > .body label.error {
+    margin: 10px 0 0 0 !important;
+}
+
+.flag-icon-steps {
+    width: 6%;
+    height: 30px;
+    position: absolute;
+    left: 100%;
+    bottom: 8%;
+    border: 1px solid #cdd4d8;
+}
+
+.country-name {
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    top: 23px;
+}
+
+.cross-btn {
+    position: absolute;
+    top: 1%;
+    right: 15%;
+    font-weight: bolder;
+    font-size: 19px;
+    color: black;
+}
+
+.cross-btn:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.img-fixed-height {
+    width: 100%;
+    height: 170px;
+}

@@ -1,0 +1,116 @@
+/*--
+    04. Hero Css
+--------------------------------*/
+
+.hero-slider-one {
+    & .single-slide {
+        height: 700px;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-position: center right ;
+        
+        @media #{$desktop-device}{
+            height: 620px;
+        }
+        @media #{$tablet-device}{
+            height: 520px;
+        }
+        @media #{$large-mobile}{
+            height: 420px;
+        }
+        
+        
+    }
+    & .slick-arrow {
+        background-color: rgba(0, 0, 0, 0.2);
+        border: medium none;
+        color: #ffffff;
+        font-size: 24px;
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        width: 40px;
+        z-index: 999;
+        visibility: hidden;
+        @include opacity(0);
+        @include transition(0.4s);
+        @include transform(translateY(-50%));
+        &:hover {
+            background-color: $theme-color;
+        }
+        @media #{$small-mobile} , #{$large-mobile}{
+            height: 40px;
+            width: 40px;
+        }
+    }
+    & .slick-arrow.slick-next {
+      right: 20px;
+    }
+    & .slick-arrow.slick-prev {
+      left: 20px;
+    }
+    &:hover .slick-arrow{
+        visibility: visible;
+        @include opacity(1);
+        &.slick-next {
+          right: 0px;
+        }
+        &.slick-prev {
+          left: 0px;
+        }
+    }
+}
+
+.hero-content-one {
+    & .slider-content-text {
+        & h5 {
+            color: $white;
+        }
+        & h1 {
+            color: $white;
+        }
+        & p {
+            color: $white;
+            max-width: 560px;
+        }
+        & .btn-style-1 {
+            margin-top: 25px;
+            border-color: #fff;
+            color: $white;
+            &::before {
+                background-color: $theme-color;
+            }
+            &:hover {
+                border: 1px solid $theme-color;  
+            }
+        }
+    } 
+}
+
+.slick-current {
+    /*-- Hero Content One --*/
+    & .hero-content-one {
+        & h5 {
+            animation-name: rollIn;
+            animation-duration: 1.3s;
+        }
+        & h1 {
+            animation-name: bounceInLeft;
+            animation-duration: 1.5s;
+        }
+        & p {
+            animation-name: slideInLeft;
+            animation-duration: 0.7s;
+        }
+        & .btn {
+            animation-name: slideInUp;
+            animation-duration: 0.8s;
+        }
+        & .slider-inner-image{
+            @include opacity(1);
+            animation-name: fadeInRight;
+            animation-duration: 0.9s;
+        }
+    }
+}

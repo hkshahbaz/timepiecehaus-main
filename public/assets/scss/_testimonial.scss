@@ -1,0 +1,93 @@
+/*--
+    08. Testimonial Css
+--------------------------------*/
+
+.quote-container {
+    margin: auto;
+    background: #fff;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 60px 30px 25px;
+    position: relative;
+    
+    & .quote-image {
+        display: inline-block;
+        height: 90px;
+        margin-right: 10px;
+        overflow: hidden;
+        vertical-align: middle;
+        width: 90px;
+        border: 7px solid #f6f5f1;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        position: absolute;
+        left: 20px;
+        top: -45px;
+    }
+    & .author {
+        & ul{
+            & li {
+                font-size: 0.9286em;
+                margin: 0 0 10px 0;
+                display: inline-block;
+                position: relative;
+                text-align: left;
+                vertical-align: middle;
+                padding-right: 10px;
+                margin-right: 10px;
+                &::after {
+                    position: absolute;
+                    left: -15px;
+                    top: 0;
+                    content: "/";
+                    height: 100%;
+                    width: 100%;
+                }
+                &:first-child {
+                    color: $theme-color;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    &::after {
+                        display: none;
+                    }
+                }
+                &:last-child {
+                   padding-right: 0px;
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+    
+}
+
+
+.testimonial-wrap-two {
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    & .quote-container {
+        padding: 0;
+        & .quote-image {
+            margin-right: 0px;
+            position: inherit;
+            left: 0px;
+            top: 0px;
+        }
+        & .author {
+            margin-top: 25px;
+            h6 {
+                font-weight: 500;
+                text-transform: uppercase;
+                color: $theme-color;
+            }
+        }
+        & .testimonials-text{
+            position: relative;
+            margin-top: 30px;
+            
+        }
+    }
+}
